@@ -1,0 +1,57 @@
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurvePro';
+    src: url("polices/LearningCurvePro/LearningCurve_OT.otf");
+}
+
+body {
+	text-align: center;
+	margin-top: 40px;
+	background-image:url("img/image_bg.jpg");
+}
+
+#conteneur {
+	padding: 5px;
+	width: 700px;
+	margin: auto;
+	text-align: left;
+	border-width: 2px;
+	border-radius: 3%;
+	border-style: groove;
+}
+
+#conteneur h1 {
+	font-family: 'LearningCurvePro', Arial, serif;
+	text-align: center;
+	font-size: 48px;
+}
+
+#conteneur p {
+	font-family: 'LearningCurvePro', Arial, serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+#conteneur h2, #conteneur p {
+	color: #733810;
+	text-shadow: 2px 2px 4px #733810;
+}
+
+#conteneur a img {
+	margin-top: 30px;
+	float: right;
+	border-radius: 5%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover{
+	color: #733810;
+	font-weight: bold;
+}
